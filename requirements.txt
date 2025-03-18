@@ -1,0 +1,7 @@
+dhooks==1.1.0
+requests==2.31.0
+pywin32==305
+pycryptodome==3.20.0
+psutil==5.9.5
+WMI==1.5.1
+pure-python-adb==0.2.5
