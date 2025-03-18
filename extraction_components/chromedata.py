@@ -11,7 +11,7 @@ import csv
 from re import sub
 import logging
 from sys import path
-path.insert(1, r'D:\Code\Python\Virus Stuff\myVIRUS\final test\Second All Around Draft\myVirus')
+path.insert(1, os.path.dirname(os.path.realpath(__file__)))
 from logfile import *
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 
