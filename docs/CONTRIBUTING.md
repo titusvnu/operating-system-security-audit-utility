@@ -19,4 +19,4 @@ Hi! I appreciate your interest in contributing to this project. By participating
 - Commit messages should be clear and descriptive.
 
 Thank you for helping to improve this project,
-Titus
+- Titus
