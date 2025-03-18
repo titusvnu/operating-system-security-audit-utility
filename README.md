@@ -2,9 +2,9 @@
 
 ## Project History
 
-This project was originally developed in **July 2022**, the summer after my freshman year of high school. Back then, I was deeply fascinated by cybersecurity and eager to explore what I could achieve with Python. I challenged myself to simulate aspects of malware behavior, such as extracting system information, decrypting browser data, retrieving network credentials, and interfacing with Android devices via ADB.
+This project was originally developed in **July 2022**, the summer after my freshman year of high school, fascinated with pushing the limits of malware behavior with Python. 
 
-Although this early version reflects the learning curve of a beginner, it remains a testament to my long-standing passion for cybersecurity and my commitment to continuous growth. Over the years, I have honed my skills further, and this repository serves as a milestone in my journey—demonstrating both my initial creativity and my ongoing evolution in the field.
+Although this early version reflects the learning curve of a beginner, this repository serves as a milestone in my journey—demonstrating both my initial creativity and my ongoing evolution in the Computer Science field.
 
 **Description:**  
 This project simulates malware behavior by extracting sensitive information from a Windows system. It gathers system hardware details, browser data (Chrome and Microsoft Edge), WiFi network credentials, and even interfaces with Android devices via ADB. **This tool is provided for educational and research purposes only.**
@@ -28,8 +28,8 @@ This project simulates malware behavior by extracting sensitive information from
   Implements comprehensive logging to track the extraction process.
 
 ### Requirements
-- **Operating System:** Windows (this project relies on Windows-specific libraries and commands)
-- **Python Version:** 3.8x+
+- **Operating System:** Windows 7, 8, 10, 11
+- **Python Version:** 3.6x+
 - **Other:**  
   - Chrome & Microsoft Edge must be installed for browser data extraction.  
   - An active ADB server for Android device interfacing.
@@ -39,3 +39,4 @@ This project simulates malware behavior by extracting sensitive information from
    ```bash
    git clone https://github.com/titusvnu/system-credentials-profiling-malware.git
    cd system-credentials-profiling-malware
+
