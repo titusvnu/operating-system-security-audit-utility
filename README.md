@@ -1,4 +1,4 @@
-# Malware Simulation & System Information Extraction Tool
+ # Malware Simulation & System Information Extraction Tool
 
 
 
@@ -9,9 +9,6 @@ This project simulates malware behavior by extracting sensitive information from
 > Unauthorized use of this tool is illegal and unethical. Use it only on systems you own or for which you have explicit permission. The author is not responsible for any misuse of this software.
 
 ## Features
-- **System & Hardware Information:**  
-  Collects detailed data about CPU, memory, disk storage, GPU, motherboard, and OS information using WMI, psutil, and WMIC commands.
-
 - **Browser Data Extraction:**  
     - Extracts encrypted sensitive passwords using Powershell scripting (Edge) and SQL decryption methods (Chrome)
    ![Untitled design (1)](https://github.com/user-attachments/assets/f0323e96-a784-463f-8201-f44a5a439445)
@@ -36,10 +33,16 @@ This project simulates malware behavior by extracting sensitive information from
 - **Android Device Interface:**  
   Uses ADB to retrieve file listings from connected Android devices.
   
+- **System & Hardware Information:**  
+  Collects detailed data about CPU, memory, disk storage, GPU, motherboard, and OS information using WMI, psutil, and WMIC commands.
+  
+  ![Untitled design (5)](https://github.com/user-attachments/assets/00c34f40-4e52-4ff9-b87d-69863d0c9c64)
+
 - **Data Packaging & Exfiltration:**  
-  Packages the collected data (logs, CSVs, etc.) and sends it via Discord webhooks for demonstration.
+    - Packages the collected data (logs, CSVs, etc.) and sends it via Discord webhooks for demonstration.
+  
 - **Logging:**  
-  Implements comprehensive logging to track the extraction process.
+    - Implements comprehensive logging to track the extraction process.
 ```
 08/14 07:30 PM | chromedata | DEBUG |: Attempting to generate data files
 08/14 07:30 PM | main | INFO |: Libraries imported successfully!
