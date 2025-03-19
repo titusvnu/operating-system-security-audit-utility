@@ -13,17 +13,44 @@ This project simulates malware behavior by extracting sensitive information from
   Collects detailed data about CPU, memory, disk storage, GPU, motherboard, and OS information using WMI, psutil, and WMIC commands.
 
 - **Browser Data Extraction:**  
-  - **Chrome:** Retrieves passwords, browsing history, and autofill data using decryption routines.  
-  - **Microsoft Edge:** Extracts saved credentials using PowerShell.
-![Untitled design (1)](https://github.com/user-attachments/assets/f0323e96-a784-463f-8201-f44a5a439445)
+    - Extracts encrypted sensitive passwords using Powershell scripting (Edge) and SQL decryption methods (Chrome)
+   ![Untitled design (1)](https://github.com/user-attachments/assets/f0323e96-a784-463f-8201-f44a5a439445)
+
+    - Retrieves browsing history by decrypting locally saved SQL databases
+    ![Screenshot 2025-03-18 210737](https://github.com/user-attachments/assets/56a7781c-9142-4f0d-91f4-e1c63bf4939b)
+
+  - Retrieves encrypted autofill data  
+![Untitled design (3)](https://github.com/user-attachments/assets/27b6a8ba-0a9f-4fc6-8bac-50858fdf5d00)
+
 - **Network Credential Extraction:**  
-  Extracts saved WiFi profiles and passwords.
+  - Extracts saved WiFi profiles and passwords.
+    ![Untitled design (4)](https://github.com/user-attachments/assets/30d3d035-27cb-4fcb-b64f-0ef3a328d93b)
+
+```
+ "system_network_passwords": {
+    "NETGEAR68_EXT": "greatunicorn941",
+    "TPLINK_42": "greatunicorn333"
+  },
+  "system_network_count": 2
+```
 - **Android Device Interface:**  
   Uses ADB to retrieve file listings from connected Android devices.
+  
 - **Data Packaging & Exfiltration:**  
   Packages the collected data (logs, CSVs, etc.) and sends it via Discord webhooks for demonstration.
 - **Logging:**  
   Implements comprehensive logging to track the extraction process.
+```
+08/14 07:30 PM | chromedata | DEBUG |: Attempting to generate data files
+08/14 07:30 PM | main | INFO |: Libraries imported successfully!
+08/14 07:30 PM | main | DEBUG |: Public IP 
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+08/14 07:30 PM | main | DEBUG |: Webhook element successfully sent
+```
 
 ### Requirements
 - **Operating System:** Windows 7, 8, 10, 11
