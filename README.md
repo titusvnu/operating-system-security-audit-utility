@@ -1,10 +1,6 @@
 # Malware Simulation & System Information Extraction Tool
 
-## Project History
 
-This project was originally developed in **July 2022**, the summer after my freshman year of high school, fascinated with pushing the limits of malware behavior with Python. 
-
-Although this early version reflects the learning curve of a beginner, this repository serves as a milestone in my journey—demonstrating both my initial creativity and my ongoing evolution in the Computer Science field.
 
 **Description:**  
 This project simulates malware behavior by extracting sensitive information from a Windows system. It gathers system hardware details, browser data (Chrome and Microsoft Edge), WiFi network credentials, and even interfaces with Android devices via ADB. **This tool is provided for educational and research purposes only.**
@@ -15,6 +11,11 @@ This project simulates malware behavior by extracting sensitive information from
 ## Features
 - **System & Hardware Information:**  
   Collects detailed data about CPU, memory, disk storage, GPU, motherboard, and OS information using WMI, psutil, and WMIC commands.
+  
+![Screenshot 2025-03-18 203820](https://github.com/user-attachments/assets/420045cc-2af2-412b-b315-e803544584c3)
+
+
+  
 - **Browser Data Extraction:**  
   - **Chrome:** Retrieves passwords, browsing history, and autofill data using decryption routines.  
   - **Microsoft Edge:** Extracts saved credentials using PowerShell.
@@ -34,9 +35,18 @@ This project simulates malware behavior by extracting sensitive information from
   - Chrome & Microsoft Edge must be installed for browser data extraction.  
   - An active ADB server for Android device interfacing.
 
+## Project History
+
+This project was originally developed in **July 2022**, the summer after my freshman year of high school, fascinated with pushing the limits of malware behavior with Python. 
+
+Although this early version reflects the learning curve of a beginner, this repository serves as a milestone in my journey—demonstrating both my initial creativity and my ongoing evolution in the Computer Science field.
+
+
 ### Setup Instructions
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/titusvnu/system-credentials-profiling-malware.git
    cd system-credentials-profiling-malware
+
+
 
