@@ -11,11 +11,7 @@ This project simulates malware behavior by extracting sensitive information from
 ## Features
 - **System & Hardware Information:**  
   Collects detailed data about CPU, memory, disk storage, GPU, motherboard, and OS information using WMI, psutil, and WMIC commands.
-  
-![Screenshot 2025-03-18 203820](https://github.com/user-attachments/assets/420045cc-2af2-412b-b315-e803544584c3)
-
-
-  
+![Untitled design (1)](https://github.com/user-attachments/assets/f0323e96-a784-463f-8201-f44a5a439445)
 - **Browser Data Extraction:**  
   - **Chrome:** Retrieves passwords, browsing history, and autofill data using decryption routines.  
   - **Microsoft Edge:** Extracts saved credentials using PowerShell.
