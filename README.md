@@ -66,7 +66,7 @@ This project simulates malware behavior by extracting sensitive information from
 
 This project was originally developed in **July 2022**, the summer after my freshman year of high school, fascinated with pushing the limits of malware behavior with Python. 
 
-Although this early version reflects the learning curve of a beginner, this repository serves as a milestone in my journey—demonstrating both my initial creativity and my ongoing evolution in the Computer Science field.
+Although this early version reflects the learning curve of a beginner, this repository serves as a milestone in my journey, demonstrating both my initial creativity and my ongoing evolution in the Computer Science field.
 
 
 ### Setup Instructions
