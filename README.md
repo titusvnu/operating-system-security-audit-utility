@@ -1,4 +1,4 @@
- # Malware Simulation & System Information Extraction Tool
+ # Operating System Security Audit Utility
 
 
 
