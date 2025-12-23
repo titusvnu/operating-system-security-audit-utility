@@ -3,7 +3,7 @@
 
 
 **Description:**  
-This project simulates malicious behavior by extracting sensitive information from a Windows system. It gathers system hardware details, browser data (Chrome and Microsoft Edge), WiFi network credentials, and even interfaces with Android devices via ADB. 
+This project tests for system vulnerabilities to secure users' systems by extracting sensitive information from a Windows system. It gathers system hardware details, browser data (Chrome and Microsoft Edge), WiFi network credentials, and even interfaces with Android devices via ADB. 
 
 
 ## Features
